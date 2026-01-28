@@ -24,7 +24,7 @@ pipeline {
                          // Run the new container
                          sh "docker run -d -p 8080:80 --name simple-app simple-app:${env.BUILD_NUMBER}"
                     }
+               }
           }
      }
-}
 }
