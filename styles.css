@@ -1,0 +1,25 @@
+* {
+  font-family: P052, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+#welcome {
+  color: yellowgreen;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+#project {
+  color: yellowgreen;
+}
