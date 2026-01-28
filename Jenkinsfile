@@ -22,7 +22,7 @@ pipeline {
                          sh "docker rm simple-app || true"
 
                          // Run the new container
-                         sh "docker run -d -p 8080:80 --name simple-app simple-app:${env.BUILD_NUMBER}"
+                         sh "docker run -d -p 8081:80 --name simple-app simple-app:${env.BUILD_NUMBER}"
                     }
                }
           }
